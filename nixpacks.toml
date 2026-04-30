@@ -19,5 +19,19 @@ nixPkgs = [
   "xorg.libXfixes",
   "xorg.libXrandr",
   "xorg.libxcb",
-  "mesa"
+  "xorg.libxkbfile",
+  "xorg.libXScrnSaver",
+  "xorg.libXi",
+  "xorg.libXtst",
+  "xorg.libXcursor",
+  "xorg.libXrender",
+  "xorg.libXinerama",
+  "xorg.libXau",
+  "xorg.libXdmcp",
+  "mesa",
+  "alsa-lib",
+  "fontconfig",
+  "freetype",
+  "expat",
+  "libxkbcommon"
 ]
