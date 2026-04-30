@@ -298,6 +298,49 @@ app.post("/enviar", async (req, res) => {
   }
 });
 
+app.post("/enviar-cliente-quase-recompensa", async (req, res) => {
+  try {
+    const { numero, nome, pontosFaltando, recompensa, loja } = req.body;
+
+    if (!numero || !nome || !pontosFaltando || !recompensa || !loja) {
+      return res.status(400).json({
+        erro: "Informe numero, nome, pontosFaltando, recompensa e loja",
+      });
+    }
+
+    if (!conectado) {
+      return res.status(400).json({
+        erro: "WhatsApp ainda não conectado",
+        qrcode: "/qrcode",
+      });
+    }
+
+    const { numeroLimpo, chatId } = await obterChatId(numero);
+
+    const mensagem = `Olá, ${nome}! 👋
+
+Você está a apenas ${pontosFaltando} pontos de ganhar ${recompensa} na ${loja}.
+
+Volte na loja e aproveite sua recompensa! 🎁`;
+
+    await client.sendMessage(chatId, mensagem);
+
+    return res.json({
+      sucesso: true,
+      numero: numeroLimpo,
+      chatId,
+      mensagem,
+    });
+  } catch (error) {
+    console.error("Erro ao enviar recompensa:", error);
+
+    return res.status(500).json({
+      erro: "Erro ao enviar mensagem",
+      detalhe: error.message,
+    });
+  }
+});
+
 const PORT = process.env.PORT || 3001;
 
 app.listen(PORT, () => {
