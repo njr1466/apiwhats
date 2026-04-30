@@ -1,2 +1,3 @@
-2026/04/30-14:20:01.281 373e42 Creating DB /Users/nilsonjunior/whats/.wwebjs_auth/session-scottclub-whatsapp/Default/Session Storage since it was missing.
-2026/04/30-14:20:01.285 373e42 Reusing MANIFEST /Users/nilsonjunior/whats/.wwebjs_auth/session-scottclub-whatsapp/Default/Session Storage/MANIFEST-000001
+2026/04/30-15:00:44.114 38084d Reusing MANIFEST /Users/nilsonjunior/whats/.wwebjs_auth/session-scottclub-whatsapp/Default/Session Storage/MANIFEST-000001
+2026/04/30-15:00:44.116 38084d Recovering log #3
+2026/04/30-15:00:44.116 38084d Reusing old log /Users/nilsonjunior/whats/.wwebjs_auth/session-scottclub-whatsapp/Default/Session Storage/000003.log 

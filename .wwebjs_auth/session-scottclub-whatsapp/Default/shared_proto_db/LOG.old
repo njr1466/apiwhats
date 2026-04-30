@@ -1,2 +1,3 @@
-2026/04/30-14:20:01.241 373e10 Creating DB /Users/nilsonjunior/whats/.wwebjs_auth/session-scottclub-whatsapp/Default/shared_proto_db since it was missing.
-2026/04/30-14:20:01.247 373e10 Reusing MANIFEST /Users/nilsonjunior/whats/.wwebjs_auth/session-scottclub-whatsapp/Default/shared_proto_db/MANIFEST-000001
+2026/04/30-15:00:43.121 3807ff Reusing MANIFEST /Users/nilsonjunior/whats/.wwebjs_auth/session-scottclub-whatsapp/Default/shared_proto_db/MANIFEST-000001
+2026/04/30-15:00:43.121 3807ff Recovering log #3
+2026/04/30-15:00:43.121 3807ff Reusing old log /Users/nilsonjunior/whats/.wwebjs_auth/session-scottclub-whatsapp/Default/shared_proto_db/000003.log 
