@@ -1,20 +1,2 @@
-2026/04/30-15:31:15.081 38421e Reusing MANIFEST /Users/nilsonjunior/whats/.wwebjs_auth/session-scottclub-whatsapp/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2026/04/30-15:31:15.082 38421e Recovering log #118
-2026/04/30-15:31:15.090 38421e Reusing old log /Users/nilsonjunior/whats/.wwebjs_auth/session-scottclub-whatsapp/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000118.log 
-2026/04/30-15:31:23.844 38421e Level-0 table #127: started
-2026/04/30-15:31:23.872 38421e Level-0 table #127: 1135547 bytes OK
-2026/04/30-15:31:23.875 38421e Delete type=0 #118
-2026/04/30-15:31:23.882 38421e Compacting 1@1 + 5@2 files
-2026/04/30-15:31:23.946 38421e Generated table #128@1: 65652 keys, 2227952 bytes
-2026/04/30-15:31:24.007 38421e Generated table #129@1: 30091 keys, 2190337 bytes
-2026/04/30-15:31:24.067 38421e Generated table #130@1: 19853 keys, 2199867 bytes
-2026/04/30-15:31:24.161 38421e Generated table #131@1: 68798 keys, 2209737 bytes
-2026/04/30-15:31:24.177 38421e Generated table #132@1: 9744 keys, 351640 bytes
-2026/04/30-15:31:24.177 38421e Compacted 1@1 + 5@2 files => 9179533 bytes
-2026/04/30-15:31:24.180 38421e compacted to: files[ 0 0 5 0 0 0 0 ]
-2026/04/30-15:31:24.180 38421e Delete type=2 #123
-2026/04/30-15:31:24.180 38421e Delete type=2 #122
-2026/04/30-15:31:24.180 38421e Delete type=2 #120
-2026/04/30-15:31:24.180 38421e Delete type=2 #121
-2026/04/30-15:31:24.180 38421e Delete type=2 #124
-2026/04/30-15:31:24.181 38421e Delete type=2 #127
+2026/04/30-15:51:44.266 386b49 Creating DB /Users/nilsonjunior/whats/.wwebjs_auth/session-scottclub-whatsapp/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb since it was missing.
+2026/04/30-15:51:44.269 386b49 Reusing MANIFEST /Users/nilsonjunior/whats/.wwebjs_auth/session-scottclub-whatsapp/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
